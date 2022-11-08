@@ -1,0 +1,62 @@
+html {
+    height: 100vh;
+  }
+  body {
+    margin:0;
+    padding:10px;
+    font-family: sans-serif;
+    align-items: center;
+    display: flex;
+   background: url(https://images7.alphacoders.com/123/thumbbig-1236773.webp);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 235vh;
+    color: white;
+  }
+  
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150vh;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+/* From https://css.glass */
+background: rgba(42, 34, 79, 0.38);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.3px);
+-webkit-backdrop-filter: blur(7.3px);
+    box-sizing: border-box;
+    border-radius: 10px;
+  }  
+#thread_container{
+    color: white;
+}
+div{
+    color: white;
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait){
+    body{
+        display: flex;
+        align-items: center;
+        padding: 25px;
+    }
+    .login-box{
+        min-width: 481px;
+        max-width: 767px;
+    }
+}
+/* scroll */
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 9px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background:#a5a9ed;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background:#a5a9ed;
+  }

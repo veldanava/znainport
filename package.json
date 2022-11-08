@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "particle.js": "^1.0.7"
+  }
+}
